@@ -1,0 +1,26 @@
+.two, .dama, .nine, .tuz, .joker{
+    width:140px;
+    height:200px;
+    background-image: url(cards.7e0a18f0.png);
+    filter:grayscale(100%)
+}
+
+.two{position: absolute;
+    background-position: 140px 10px;   
+}
+.dama{position: absolute;
+    margin: 0px 0px 0px 150px;
+    background-position: 1px 795px;
+}
+.nine{position: absolute;
+    margin: 0px 0px 0px 300px;
+    background-position: 282px 1194px;
+}
+.tuz{position: absolute;
+    margin: 0px 0px 0px 450px;
+    background-position: 422px 398px;
+}
+.joker{position: absolute;
+    margin: 0px 0px 0px 600px;
+    background-position: 282px 198px;
+}
