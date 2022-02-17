@@ -6,21 +6,21 @@
 }
 
 .two{position: absolute;
-    background-position: 140px 10px;   
+   float: left;  
 }
 .dama{position: absolute;
     margin: 0px 0px 0px 150px;
-    background-position: 1px 795px;
+    float: left;
 }
 .nine{position: absolute;
     margin: 0px 0px 0px 300px;
-    background-position: 282px 1194px;
+    float: left;
 }
 .tuz{position: absolute;
     margin: 0px 0px 0px 450px;
-    background-position: 422px 398px;
+    float: left;
 }
 .joker{position: absolute;
     margin: 0px 0px 0px 600px;
-    background-position: 282px 198px;
+    float: left;
 }

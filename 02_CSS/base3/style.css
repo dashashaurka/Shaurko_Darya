@@ -1,0 +1,28 @@
+.fon{background-color: rgb(236, 229, 241);}
+
+
+.navigation{
+    width: 15em;
+    background-color: blueviolet;
+    float:left;
+    height: 100%;
+    position: fixed;
+}
+.article{
+    margin: 0em 0em .2em 15em;
+    background-color:rgb(189, 148, 228);
+    height: 313px;
+    
+
+}
+    
+.down{
+    background-color:rgb(111, 36, 180);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+
+.img{float: right; margin: 100px 20px 0px 0px; width: 100px;;
+}
