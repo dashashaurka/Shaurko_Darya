@@ -1,0 +1,45 @@
+
+.flex{display: flex;
+}
+.navigation{
+    background-color: blueviolet;
+    width: 15em;
+    height: 100%;
+    position: fixed;
+  
+
+}
+.article1{
+    background-color: rgb(189, 148, 228);
+    position:absolute;
+    left: 15.8em;
+    height: 360px;
+    width:auto;
+    
+    
+
+}
+
+.article2{
+    background-color: rgb(189, 148, 228);
+    position:absolute;
+    left: 15.8em;
+    top:371px;
+    height: 360px;
+
+
+   
+}
+    
+.down{
+    background-color:rgb(111, 36, 180);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+  
+}
+
+.img{float: right; margin: 100px 20px 0px 0px; width: 100px;;
+}
+
