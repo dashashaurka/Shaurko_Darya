@@ -5,24 +5,28 @@
     <!-- надо цвет менять или нет? filter:grayscale(100%) -->
 }
 
-.two{position: absolute;
+.two{
     background-position: 140px 0px;
+    float: left;
   
 }
-.dama{position: absolute;
-    margin: 0px 0px 0px 150px;
+.dama{
+    margin: 86px 0px 0px -58px;
     background-position: 0px 785px;
+    float: left;
 }
-.nine{position: absolute;
-    margin: 0px 0px 0px 300px;
+.nine{
+    margin: 169px 0px 0px -47px;
     background-position: 282px 1183px;
+    float: left;
 }
-.tuz{position: absolute;
-    margin: 0px 0px 0px 450px;
+.tuz{
+    margin: 259px 0px 0px -60px;
     background-position: 422px 388px;
+    float: left;
 }
-.joker{position: absolute;
-    margin: 0px 0px 0px 600px;
+.joker{
+    margin: 353px 0px 0px -64px;
     background-position: 282px 188px;
-
+    float: left;
 }

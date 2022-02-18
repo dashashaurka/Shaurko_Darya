@@ -2,8 +2,8 @@
     background-color: black;
     color:green;
     height: 5em;
-    width: 400px;
-    overflow-x:auto
+    width: 200px;
+    overflow:auto
 }
 .up{list-style-type:upper-roman;
     font-weight:bold;
