@@ -1,20 +1,21 @@
 
 .flex{display: flex;
+    background-color: rgb(224, 175, 236);
+    align-items: flex-start;
 }
 .navigation{
     background-color: blueviolet;
-    width: 15em;
-    height: 100%;
-    position: fixed;
+    min-width: 15em;
+    max-width: 15em;
+    padding: 2px;
+    margin-bottom: 2px;
   
 
 }
-.article1{
-    background-color: rgb(189, 148, 228);
-    position:absolute;
-    left: 15.8em;
-    height: 360px;
-    width:auto;
+.article{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
     
     
 
@@ -22,10 +23,7 @@
 
 .article2{
     background-color: rgb(189, 148, 228);
-    position:absolute;
-    left: 15.8em;
-    top:371px;
-    height: 360px;
+    margin-bottom: 2px;
 
 
    
@@ -33,13 +31,10 @@
     
 .down{
     background-color:rgb(111, 36, 180);
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    clear: both;
+    padding-bottom: 2px;
   
 }
 
-.img{float: right; margin: 100px 20px 0px 0px; width: 100px;;
+.img{float: right; width: 100px;;
 }
 
