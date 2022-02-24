@@ -1,0 +1,33 @@
+div {
+    border: 1px solid rgb(199, 193, 193); 
+    border-radius: 0px 10px;
+    height: 100px;
+    width:600px;
+}
+li{
+    list-style-image: url(img/pict.jpg); 
+}
+a[href$='document.png']::before{
+    content: url(img/document.png);
+}
+a[href$='word.jpg']::after{
+    content: url(img/word.jpg);
+}
+a[href$='pdf.png']::after{
+    content: url(img/pdf.png);
+}
+
+a[href$='arhiv.gif']::after{
+    content: url(img/arhiv.gif);
+}
+
+ul{
+    position: relative;
+}
+li img{position: absolute;
+    display:none;
+
+}
+li:hover img {display:block;
+}
+

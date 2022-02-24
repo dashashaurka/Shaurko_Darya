@@ -1,0 +1,17 @@
+div {
+    border: 1px solid rgb(199, 193, 193); 
+    border-radius: 0px 10px;
+    height: 100px;
+    width:600px;
+}
+li{
+    list-style-image: url(img/pict.jpg);
+  
+}
+li span{position: absolute;
+    visibility: hidden;
+
+}
+li:hover span {visibility: visible;
+
+}
