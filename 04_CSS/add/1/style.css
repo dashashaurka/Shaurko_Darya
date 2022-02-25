@@ -21,13 +21,16 @@ a[href$='arhiv.gif']::after{
     content: url(img/arhiv.gif);
 }
 
-ul{
-    position: relative;
+li{
+    list-style-image: url(img/pict.jpg);
+  
 }
-li img{position: absolute;
-    display:none;
+li span{position: absolute;
+    visibility: hidden;
 
 }
-li:hover img {display:block;
+li:hover span {visibility: visible;
+
+}
 }
 
