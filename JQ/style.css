@@ -1,0 +1,35 @@
+table {
+    width: 700px;
+    border-collapse: collapse;
+}
+td {
+    border: 1.5px dotted;
+}
+thead tr {
+    background-color: rgb(175, 166, 166);
+}
+thead th {
+    border: 2px solid white;
+}
+td:first-child {
+    font-weight: bold;
+}
+body tr:nth-child(even) {
+    background-color: rgba(166, 155, 182, 0.527);
+}
+tfoot th {
+    font-weight: normal;
+}
+.data:hover {
+    background-color:rgba(250, 135, 179, 0.418);   
+}
+button {
+    margin: 10px;
+    background-color: rgb(44, 44, 61);
+    color: white;
+    height: 30px;
+}
+button:hover {
+    background-color: rgb(172, 172, 190);
+}
+
